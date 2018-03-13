@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="All enumeration member" Url="html/8359e5c4-9427-6e2d-3c45-6493f6818414.htm" />
+  <HelpKINode Title="API" Url="html/c76cf38e-2228-4417-9a81-bdc020178c6d.htm" />
+  <HelpKINode Title="Available property" Url="html/878338f8-9ff0-ba3f-f99e-3a9bddabd767.htm" />
+  <HelpKINode Title="blockingMask field" Url="html/a3cbca8a-4002-c6df-4c2a-62de61335973.htm" />
+  <HelpKINode Title="blockingObjects field" Url="html/a9613777-f07e-f12b-a5dc-fbba5a911c25.htm" />
+  <HelpKINode Title="Clicked property" Url="html/1be77ec8-6732-7801-0b61-65d8d98bd289.htm" />
+  <HelpKINode Title="DeactivateModule method" Url="html/ddc27783-fc2d-8348-e906-79b0381c5f1b.htm" />
+  <HelpKINode Title="dp.pixie namespace" Url="html/638c421c-a40d-6ef9-c92c-8f0a633d996f.htm" />
+  <HelpKINode Title="dp.pixie.DPPixieUnity class" Url="html/8b1b19b5-05d0-849c-02a7-0e5a43740213.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem namespace" Url="html/f86af255-1fcc-a7f4-97a0-2ff731e90689.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPBasePixiePointer class" Url="html/e9ba64d7-10d4-8100-d872-b997e3af2936.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPBasePointer class" Url="html/728e4e45-c32e-dc30-5643-bcb850685c55.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPBaseRaycaster class" Url="html/16730da8-b000-fb1c-0d99-b8b34f7561ca.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPBaseReticlePointer class" Url="html/1252d0be-9c13-0b1a-cd43-6f64e5d48d20.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPGraphicRaycaster class" Url="html/fa044854-f0ef-e37c-ef4f-ebcfa2d6828f.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPGraphicRaycaster.BLOCKING_OBJECTS enumeration" Url="html/8359e5c4-9427-6e2d-3c45-6493f6818414.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPInputModule class" Url="html/2b4fb0e2-7038-e1b6-0cb2-0a31912146b0.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPInputModule.STATE enumeration" Url="html/d7d793a5-8736-218f-08f0-b6d9a6a44994.htm" />
+  <HelpKINode Title="dp.pixie.eventsystem.DPPhysicsRaycaster class" Url="html/b261a51b-2fa4-c021-87b4-371251bc77e3.htm" />
+  <HelpKINode Title="DPBasePixiePointer class">
+    <HelpKINode Title="DPBasePixiePointer Class" Url="html/e9ba64d7-10d4-8100-d872-b997e3af2936.htm" />
+    <HelpKINode Title="constructor" Url="html/bed53286-77a8-6b5a-c0ae-75e02d170657.htm" />
+    <HelpKINode Title="methods" Url="html/a6960b08-3e09-0f03-75fb-4dc62e61135d.htm" />
+    <HelpKINode Title="properties" Url="html/ff35968f-e2d4-37d7-f966-e474b0daee91.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPBasePixiePointer.DPBasePixiePointer constructor" Url="html/bed53286-77a8-6b5a-c0ae-75e02d170657.htm" />
+  <HelpKINode Title="DPBasePixiePointer.OnDestroy method" Url="html/c1ff78ce-b417-25ed-6ca7-c3cdf2f16867.htm" />
+  <HelpKINode Title="DPBasePixiePointer.OnPointerEnter method" Url="html/48a6a713-3583-634e-5e26-93e0abb51447.htm" />
+  <HelpKINode Title="DPBasePixiePointer.OnPointerExit method" Url="html/3a6e3ebf-7069-5e11-84ca-cc745d7ec04e.htm" />
+  <HelpKINode Title="DPBasePixiePointer.OnPointerHover method" Url="html/ecda60d9-715d-9694-89ae-404d1519b83f.htm" />
+  <HelpKINode Title="DPBasePixiePointer.Start method" Url="html/eab7c7f7-73fc-ff9a-e425-9c60c75aa15c.htm" />
+  <HelpKINode Title="DPBasePointer class">
+    <HelpKINode Title="DPBasePointer Class" Url="html/728e4e45-c32e-dc30-5643-bcb850685c55.htm" />
+    <HelpKINode Title="constructor" Url="html/95fe2afc-f1eb-1faa-2eca-aeee66fdb2da.htm" />
+    <HelpKINode Title="methods" Url="html/c097b5a2-fe4b-f57d-2619-d23bf25ba21f.htm" />
+    <HelpKINode Title="properties" Url="html/c21f1f48-b585-6a91-ebda-d4f490a38bd7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPBasePointer.DPBasePointer constructor" Url="html/95fe2afc-f1eb-1faa-2eca-aeee66fdb2da.htm" />
+  <HelpKINode Title="DPBasePointer.OnDestroy method" Url="html/6b49c9e2-3751-37e2-c840-04439ae9e838.htm" />
+  <HelpKINode Title="DPBasePointer.OnInputModuleStateChanged method" Url="html/3f0c99c8-13c6-bd13-024e-5f11f639c5ca.htm" />
+  <HelpKINode Title="DPBasePointer.Start method" Url="html/1aff1fa2-8c0b-3dbf-1af5-e6dbbcb732d9.htm" />
+  <HelpKINode Title="DPBaseRaycaster class">
+    <HelpKINode Title="DPBaseRaycaster Class" Url="html/16730da8-b000-fb1c-0d99-b8b34f7561ca.htm" />
+    <HelpKINode Title="constructor" Url="html/9be066f3-6611-25d8-4d14-5014ec01019e.htm" />
+    <HelpKINode Title="fields" Url="html/dc7031db-50cf-6c52-8593-28d1bd798eba.htm" />
+    <HelpKINode Title="methods" Url="html/cadd52b5-32c2-79b1-88d0-ee760175ed8d.htm" />
+    <HelpKINode Title="properties" Url="html/c3ae8218-9949-1832-2050-0258a3df650e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPBaseRaycaster.DPBaseRaycaster constructor" Url="html/9be066f3-6611-25d8-4d14-5014ec01019e.htm" />
+  <HelpKINode Title="DPBaseRaycaster.eventCamera property" Url="html/4f35e4ab-789d-9c19-219c-dc04621b17a1.htm" />
+  <HelpKINode Title="DPBaseRaycaster.NO_EVENT_MASK_SET field" Url="html/9cbd3311-12b7-70cb-9a5a-6f2f389e2778.htm" />
+  <HelpKINode Title="DPBaseRaycaster.OnDestroy method" Url="html/6a336ac7-0fe8-095c-7a71-d82d2be14c99.htm" />
+  <HelpKINode Title="DPBaseRaycaster.Start method" Url="html/49183537-3927-bd03-0cbd-7e1ddafac780.htm" />
+  <HelpKINode Title="DPBaseReticlePointer class">
+    <HelpKINode Title="DPBaseReticlePointer Class" Url="html/1252d0be-9c13-0b1a-cd43-6f64e5d48d20.htm" />
+    <HelpKINode Title="constructor" Url="html/cb99b631-971f-8ccf-1070-59f174d2c6df.htm" />
+    <HelpKINode Title="methods" Url="html/2f8f4164-1aa1-02cf-7d7b-d588c1ecaefb.htm" />
+    <HelpKINode Title="properties" Url="html/ed19b08e-1ea0-1bc8-4104-f209d48a89d3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPBaseReticlePointer.DPBaseReticlePointer constructor" Url="html/cb99b631-971f-8ccf-1070-59f174d2c6df.htm" />
+  <HelpKINode Title="DPBaseReticlePointer.OnDestroy method" Url="html/eb0760c2-9ef9-e940-ae38-f86bba93a2f3.htm" />
+  <HelpKINode Title="DPBaseReticlePointer.Start method" Url="html/d82436f9-81cb-6238-55df-283e5694e1de.htm" />
+  <HelpKINode Title="DPGraphicRaycaster class">
+    <HelpKINode Title="DPGraphicRaycaster Class" Url="html/fa044854-f0ef-e37c-ef4f-ebcfa2d6828f.htm" />
+    <HelpKINode Title="constructor" Url="html/5b665549-0cf8-5e75-da44-42ca6d089cc1.htm" />
+    <HelpKINode Title="fields" Url="html/980ced9c-0179-c244-8a6e-3769eaa5d6de.htm" />
+    <HelpKINode Title="methods" Url="html/4f36e9fb-99a8-2c5a-c077-3663b047f48c.htm" />
+    <HelpKINode Title="properties" Url="html/6e086df8-af6d-d603-153f-85b6ad630728.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPGraphicRaycaster.blockingMask field" Url="html/a3cbca8a-4002-c6df-4c2a-62de61335973.htm" />
+  <HelpKINode Title="DPGraphicRaycaster.blockingObjects field" Url="html/a9613777-f07e-f12b-a5dc-fbba5a911c25.htm" />
+  <HelpKINode Title="DPGraphicRaycaster.BLOCKING_OBJECTS enumeration" Url="html/8359e5c4-9427-6e2d-3c45-6493f6818414.htm" />
+  <HelpKINode Title="DPGraphicRaycaster.DPGraphicRaycaster constructor" Url="html/5b665549-0cf8-5e75-da44-42ca6d089cc1.htm" />
+  <HelpKINode Title="DPGraphicRaycaster.ignoreReversedGraphics field" Url="html/68fe2e96-c0d8-a5fe-5146-11a1837d8ec1.htm" />
+  <HelpKINode Title="DPGraphicRaycaster.OnDestroy method" Url="html/d93a5316-32f1-fe9b-3c41-b6ed388ee2a4.htm" />
+  <HelpKINode Title="DPGraphicRaycaster.Raycast method" Url="html/197f50c2-3f5b-2b18-fec3-987b505a86a8.htm" />
+  <HelpKINode Title="DPGraphicRaycaster.Start method" Url="html/f66b887a-61b3-3fdf-c009-0bd1c38fcf23.htm" />
+  <HelpKINode Title="DPInputModule class">
+    <HelpKINode Title="DPInputModule Class" Url="html/2b4fb0e2-7038-e1b6-0cb2-0a31912146b0.htm" />
+    <HelpKINode Title="constructor" Url="html/ebb1bc12-b21d-de2a-b20f-ba23c7022212.htm" />
+    <HelpKINode Title="fields" Url="html/1a70a803-168c-79c7-39de-0236e47dfe70.htm" />
+    <HelpKINode Title="methods" Url="html/b3265620-48e4-ee01-884f-2d37e8999871.htm" />
+    <HelpKINode Title="properties" Url="html/5cfb93cb-ec2a-1f9f-3a39-fbf1c8b285db.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPInputModule.DeactivateModule method" Url="html/ddc27783-fc2d-8348-e906-79b0381c5f1b.htm" />
+  <HelpKINode Title="DPInputModule.DPInputModule constructor" Url="html/ebb1bc12-b21d-de2a-b20f-ba23c7022212.htm" />
+  <HelpKINode Title="DPInputModule.IsPointerOverGameObject method" Url="html/a0686823-3405-ecc9-ae71-4fbffaab4495.htm" />
+  <HelpKINode Title="DPInputModule.m_farZPlane field" Url="html/b7808f03-bbf3-5751-e499-1d624fd94750.htm" />
+  <HelpKINode Title="DPInputModule.m_initialInputOffset field" Url="html/883f4f1b-9170-31cd-1ef9-23ba457ff7f4.htm" />
+  <HelpKINode Title="DPInputModule.m_nearZPlane field" Url="html/07385be1-c1ce-1688-516a-cacdd06b0637.htm" />
+  <HelpKINode Title="DPInputModule.m_requestPermissionIfNeed field" Url="html/51ff319f-5154-284a-478e-b92cb3f0abc3.htm" />
+  <HelpKINode Title="DPInputModule.Process method" Url="html/693880ea-faa8-18b5-7f21-5dc8feb0e18f.htm" />
+  <HelpKINode Title="DPInputModule.ShouldActivateModule method" Url="html/f4211377-482e-3d37-8825-0f4498c77b88.htm" />
+  <HelpKINode Title="DPInputModule.Start method" Url="html/52cc3695-76fc-76f3-9378-010e10ba2c4f.htm" />
+  <HelpKINode Title="DPInputModule.StartInteraction method" Url="html/a76ab527-6ac4-389d-cec3-c40f7c0b4979.htm" />
+  <HelpKINode Title="DPInputModule.STATE enumeration" Url="html/d7d793a5-8736-218f-08f0-b6d9a6a44994.htm" />
+  <HelpKINode Title="DPPhysicsRaycaster class">
+    <HelpKINode Title="DPPhysicsRaycaster Class" Url="html/b261a51b-2fa4-c021-87b4-371251bc77e3.htm" />
+    <HelpKINode Title="constructor" Url="html/cb86b068-8cc3-31db-8e0f-77d2361b34fc.htm" />
+    <HelpKINode Title="fields" Url="html/78261e5f-227a-5809-7d6a-a4ee9ed52efc.htm" />
+    <HelpKINode Title="methods" Url="html/8b76ee61-0996-7954-c66f-d8ec1eae5d8f.htm" />
+    <HelpKINode Title="properties" Url="html/17f25b5f-50aa-0710-b513-b6be73eb353d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPPhysicsRaycaster.DPPhysicsRaycaster constructor" Url="html/cb86b068-8cc3-31db-8e0f-77d2361b34fc.htm" />
+  <HelpKINode Title="DPPhysicsRaycaster.eventMask field" Url="html/229b9a29-7ea5-e0ea-84d1-e5fdfc067686.htm" />
+  <HelpKINode Title="DPPhysicsRaycaster.OnDestroy method" Url="html/3c50424c-dfea-6ee1-0fac-570b98a4b785.htm" />
+  <HelpKINode Title="DPPhysicsRaycaster.Raycast method" Url="html/d23874ca-4426-b312-6ef5-4d0f941a7116.htm" />
+  <HelpKINode Title="DPPhysicsRaycaster.Start method" Url="html/9e0f9e9f-6548-06aa-a116-e88e660ad83b.htm" />
+  <HelpKINode Title="DPPixieUnity class">
+    <HelpKINode Title="DPPixieUnity Class" Url="html/8b1b19b5-05d0-849c-02a7-0e5a43740213.htm" />
+    <HelpKINode Title="methods" Url="html/0c256935-de88-6245-3ad8-45d9511fd6e5.htm" />
+    <HelpKINode Title="properties" Url="html/24a02ae5-b215-a454-1561-f80f9b47d68a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DPPixieUnity.Available property" Url="html/878338f8-9ff0-ba3f-f99e-3a9bddabd767.htm" />
+  <HelpKINode Title="DPPixieUnity.Clicked property" Url="html/1be77ec8-6732-7801-0b61-65d8d98bd289.htm" />
+  <HelpKINode Title="DPPixieUnity.GetTexture method" Url="html/ee487ea0-e2d2-9ac4-7590-9682cb36217d.htm" />
+  <HelpKINode Title="DPPixieUnity.Holding property" Url="html/8dc06902-75a1-dca1-2f71-161c2ec20b46.htm" />
+  <HelpKINode Title="DPPixieUnity.Offset property" Url="html/6aa15b67-e7b5-6368-9652-34028a96e958.htm" />
+  <HelpKINode Title="DPPixieUnity.Position property" Url="html/aee5536d-098a-8ab8-20ca-07cdd65f0fce.htm" />
+  <HelpKINode Title="DPPixieUnity.ThumbIn property" Url="html/c0b82a24-80c0-886f-f94b-7bbdbbe4d7b4.htm" />
+  <HelpKINode Title="DPPixieUnity.ThumbOut property" Url="html/dd719b3d-b4d1-1bdd-e442-8a95bb6b8a68.htm" />
+  <HelpKINode Title="eventCamera property" Url="html/4f35e4ab-789d-9c19-219c-dc04621b17a1.htm" />
+  <HelpKINode Title="eventMask field" Url="html/229b9a29-7ea5-e0ea-84d1-e5fdfc067686.htm" />
+  <HelpKINode Title="GetTexture method" Url="html/ee487ea0-e2d2-9ac4-7590-9682cb36217d.htm" />
+  <HelpKINode Title="Holding property" Url="html/8dc06902-75a1-dca1-2f71-161c2ec20b46.htm" />
+  <HelpKINode Title="ignoreReversedGraphics field" Url="html/68fe2e96-c0d8-a5fe-5146-11a1837d8ec1.htm" />
+  <HelpKINode Title="IsPointerOverGameObject method" Url="html/a0686823-3405-ecc9-ae71-4fbffaab4495.htm" />
+  <HelpKINode Title="m_farZPlane field" Url="html/b7808f03-bbf3-5751-e499-1d624fd94750.htm" />
+  <HelpKINode Title="m_initialInputOffset field" Url="html/883f4f1b-9170-31cd-1ef9-23ba457ff7f4.htm" />
+  <HelpKINode Title="m_nearZPlane field" Url="html/07385be1-c1ce-1688-516a-cacdd06b0637.htm" />
+  <HelpKINode Title="m_requestPermissionIfNeed field" Url="html/51ff319f-5154-284a-478e-b92cb3f0abc3.htm" />
+  <HelpKINode Title="None enumeration member" Url="html/8359e5c4-9427-6e2d-3c45-6493f6818414.htm" />
+  <HelpKINode Title="NONE enumeration member" Url="html/d7d793a5-8736-218f-08f0-b6d9a6a44994.htm" />
+  <HelpKINode Title="NORMAL enumeration member" Url="html/d7d793a5-8736-218f-08f0-b6d9a6a44994.htm" />
+  <HelpKINode Title="NO_EVENT_MASK_SET field" Url="html/9cbd3311-12b7-70cb-9a5a-6f2f389e2778.htm" />
+  <HelpKINode Title="Offset property" Url="html/6aa15b67-e7b5-6368-9652-34028a96e958.htm" />
+  <HelpKINode Title="OnDestroy method">
+    <HelpKINode Title="DPBasePixiePointer.OnDestroy Method " Url="html/c1ff78ce-b417-25ed-6ca7-c3cdf2f16867.htm" />
+    <HelpKINode Title="DPBasePointer.OnDestroy Method " Url="html/6b49c9e2-3751-37e2-c840-04439ae9e838.htm" />
+    <HelpKINode Title="DPBaseRaycaster.OnDestroy Method " Url="html/6a336ac7-0fe8-095c-7a71-d82d2be14c99.htm" />
+    <HelpKINode Title="DPBaseReticlePointer.OnDestroy Method " Url="html/eb0760c2-9ef9-e940-ae38-f86bba93a2f3.htm" />
+    <HelpKINode Title="DPGraphicRaycaster.OnDestroy Method " Url="html/d93a5316-32f1-fe9b-3c41-b6ed388ee2a4.htm" />
+    <HelpKINode Title="DPPhysicsRaycaster.OnDestroy Method " Url="html/3c50424c-dfea-6ee1-0fac-570b98a4b785.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OnInputModuleStateChanged method" Url="html/3f0c99c8-13c6-bd13-024e-5f11f639c5ca.htm" />
+  <HelpKINode Title="OnPointerEnter method" Url="html/48a6a713-3583-634e-5e26-93e0abb51447.htm" />
+  <HelpKINode Title="OnPointerExit method" Url="html/3a6e3ebf-7069-5e11-84ca-cc745d7ec04e.htm" />
+  <HelpKINode Title="OnPointerHover method" Url="html/ecda60d9-715d-9694-89ae-404d1519b83f.htm" />
+  <HelpKINode Title="Position property" Url="html/aee5536d-098a-8ab8-20ca-07cdd65f0fce.htm" />
+  <HelpKINode Title="Process method" Url="html/693880ea-faa8-18b5-7f21-5dc8feb0e18f.htm" />
+  <HelpKINode Title="Raycast method">
+    <HelpKINode Title="DPGraphicRaycaster.Raycast Method " Url="html/197f50c2-3f5b-2b18-fec3-987b505a86a8.htm" />
+    <HelpKINode Title="DPPhysicsRaycaster.Raycast Method " Url="html/d23874ca-4426-b312-6ef5-4d0f941a7116.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShouldActivateModule method" Url="html/f4211377-482e-3d37-8825-0f4498c77b88.htm" />
+  <HelpKINode Title="Start method">
+    <HelpKINode Title="DPBasePixiePointer.Start Method " Url="html/eab7c7f7-73fc-ff9a-e425-9c60c75aa15c.htm" />
+    <HelpKINode Title="DPBasePointer.Start Method " Url="html/1aff1fa2-8c0b-3dbf-1af5-e6dbbcb732d9.htm" />
+    <HelpKINode Title="DPBaseRaycaster.Start Method " Url="html/49183537-3927-bd03-0cbd-7e1ddafac780.htm" />
+    <HelpKINode Title="DPBaseReticlePointer.Start Method " Url="html/d82436f9-81cb-6238-55df-283e5694e1de.htm" />
+    <HelpKINode Title="DPGraphicRaycaster.Start Method " Url="html/f66b887a-61b3-3fdf-c009-0bd1c38fcf23.htm" />
+    <HelpKINode Title="DPInputModule.Start Method " Url="html/52cc3695-76fc-76f3-9378-010e10ba2c4f.htm" />
+    <HelpKINode Title="DPPhysicsRaycaster.Start Method " Url="html/9e0f9e9f-6548-06aa-a116-e88e660ad83b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StartInteraction method" Url="html/a76ab527-6ac4-389d-cec3-c40f7c0b4979.htm" />
+  <HelpKINode Title="ThreeD enumeration member" Url="html/8359e5c4-9427-6e2d-3c45-6493f6818414.htm" />
+  <HelpKINode Title="ThumbIn property" Url="html/c0b82a24-80c0-886f-f94b-7bbdbbe4d7b4.htm" />
+  <HelpKINode Title="ThumbOut property" Url="html/dd719b3d-b4d1-1bdd-e442-8a95bb6b8a68.htm" />
+  <HelpKINode Title="TwoD enumeration member" Url="html/8359e5c4-9427-6e2d-3c45-6493f6818414.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/e794cfeb-aec8-4db0-be03-678abf63e05e.htm" />
+    <HelpKINode Title="history" Url="html/81287067-ce77-49e2-800a-9d793eff3564.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/fb62c042-1bda-4a7e-8353-b7be96d10ccf.htm" />
+</HelpKI>
