@@ -181,9 +181,6 @@ You're going to need:
     - To change the y-axis coordinate, move your hand up or down.
     - To change the z-axis coordinate, move your hand away or close.
     ![](./img/position.gif)
-<!--
-    - Your hand should look like the picture below.
--->
 
 1. To generate the pixie events, use your thumb.
     - Thumb-in  
@@ -214,7 +211,7 @@ Demo to interact with cube using ray casting. When you select the cube, it disap
 1. Adds DPInputModule to EventSystem object as a component.  
     ![](./img/add_component_dpinputmodule.gif)  
 
-1. Adds DPPhysicsRaycater to MainCamera object as a component.
+1. Adds DPPhysicsRaycater to MainCamera object as a component.  
     ![](./img/add_component_dpphysicsraycaster.gif)  
 
 1. Adds DPPixiePointer2D prefab to MainCamera object as a child.  
