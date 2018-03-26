@@ -179,7 +179,7 @@ You're going to need:
 
     - To change the x-axis coordinate, move your hand left or right.
     - To change the y-axis coordinate, move your hand up or down.
-    - To change the z-axis coordinate, move your hand away or close.
+    - To change the z-axis coordinate, move your hand away or close.  
     ![](./img/position.gif)
 
 1. To generate the pixie events, use your thumb.
