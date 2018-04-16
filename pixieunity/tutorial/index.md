@@ -1,15 +1,14 @@
 <!-- <link rel="stylesheet" type="text/css" href="markdownpad-github.css"> -->
 
-[Deepixel Inc.]: http://www.deepixel.xyz 
+[Deepixel Inc.]: http://www.deepixel.xyz  
 [Build and player settings video]: 
-https://unity3d.com/learn/tutorials/topics/interface-essentials/build-and-player-settings?playlist=17090 
+https://unity3d.com/learn/tutorials/topics/interface-essentials/build-and-player-settings?playlist=17090  
 [UI Events and Event Triggers]: 
-https://unity3d.com/learn/tutorials/topics/user-interface-ui/ui-events-and-event-triggers 
+https://unity3d.com/learn/tutorials/topics/user-interface-ui/ui-events-and-event-triggers  
 [Using Asset Store]:
-https://unity3d.com/learn/tutorials/topics/asset-store/using-asset-store 
-[Colliders as Triggers]: https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers 
-[PixieUnity API Reference]: https://deepixel-dev1.github.io/pixieunity/api 
-<!--https://youtu.be/3NBYqPAA5Es?t=190-->
+https://unity3d.com/learn/tutorials/topics/asset-store/using-asset-store  
+[Colliders as Triggers]: https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers  
+[PixieUnity API Reference]: https://deepixel-dev1.github.io/pixieunity/api  
 
 <!-- TOC -->
 
@@ -26,23 +25,11 @@ https://unity3d.com/learn/tutorials/topics/asset-store/using-asset-store
     - [Makes 2D pixie demo using ray casting](#makes-2d-pixie-demo-using-ray-casting)
     - [Makes 3D pixie demo](#makes-3d-pixemo)
     - [Makes camera preview and meta menu demo](#makes-camera-preview-and-meta-menu-demo)
-<!--- [Advanced features](#advanced-features)
-    - [Pixie pointer](#pixie-pointer)
-    - [Reticle pointer](#reticle-pointer)
-    - [Meta menu](#meta-menu)
-    - [Camera moving pointer](#camera-moving-pointer)
--->
 - [Reference](#reference)
     - [Pixie properties](#pixie-properties)
     - [Pixie pointer events](#pixie-pointer-events)
     - [Input module states](#input-module-states)
     - [API reference](#api-reference)
-<!--
-    - [Meta menu events](#meta-menu-events)
-    - [Reticle pointer events](#reticle-pointer-events)
-    - [Camera moving pointer events](#camera-moving-pointer-events)
-    - [Pointer events](#pointer-events)
--->
 - [Needs help? Founds a bug?](#needs-help-founds-a-bug)
 
 <!-- /TOC -->
