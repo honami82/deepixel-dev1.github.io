@@ -1,3 +1,9 @@
+@import "{{ site.theme }}";
+
+header {
+  display: none;
+}
+
 <!-- <link rel="stylesheet" type="text/css" href="markdownpad-github.css"> -->
 
 [Deepixel Inc.]: http://www.deepixel.xyz
@@ -289,6 +295,13 @@ Demo to display camera preview and control it by using meta menu.
    to MainCamera object as a child.  
     ![](./img/hierarchy_camera_preview_prefabs.png)
 
+1. Adds a cube and sets the transformation parameters as shown below.  
+    ![](./img/hierarchy_camera_preview_cube.png)  
+    ![](./img/inspector_camera_preview_cube.png)
+
+1. Sets a camera preview to a parameter of DPMetaMenuItemRoot.  
+    ![](./img/set_camera_preview.gif)
+
 1. Runs this scene in the editor.
     > When you let the pixie pointer to the reticle pointer,
     > you can see that the shape of reticle pointer changes to circle.
@@ -297,7 +310,7 @@ Demo to display camera preview and control it by using meta menu.
     > To disable/enable camera preview, move the mouse up.
     > To exit the application, move the mouse down.  
 
-    ![](./img/camera_preview.gif)
+    ![](./img/meta_menu.gif)
 
 <!--# Advanced features-->
 
