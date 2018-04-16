@@ -1,14 +1,14 @@
 <!-- <link rel="stylesheet" type="text/css" href="markdownpad-github.css"> -->
 
-[Deepixel Inc.]: http://www.deepixel.xyz
+[Deepixel Inc.]: http://www.deepixel.xyz 
 [Build and player settings video]: 
-https://unity3d.com/learn/tutorials/topics/interface-essentials/build-and-player-settings?playlist=17090
+https://unity3d.com/learn/tutorials/topics/interface-essentials/build-and-player-settings?playlist=17090 
 [UI Events and Event Triggers]: 
-https://unity3d.com/learn/tutorials/topics/user-interface-ui/ui-events-and-event-triggers
+https://unity3d.com/learn/tutorials/topics/user-interface-ui/ui-events-and-event-triggers 
 [Using Asset Store]:
-https://unity3d.com/learn/tutorials/topics/asset-store/using-asset-store
-[Colliders as Triggers]: https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers
-[PixieUnity API Reference]: https://deepixel-dev1.github.io/pixieunity/api
+https://unity3d.com/learn/tutorials/topics/asset-store/using-asset-store 
+[Colliders as Triggers]: https://unity3d.com/learn/tutorials/topics/physics/colliders-triggers 
+[PixieUnity API Reference]: https://deepixel-dev1.github.io/pixieunity/api 
 <!--https://youtu.be/3NBYqPAA5Es?t=190-->
 
 <!-- TOC -->
