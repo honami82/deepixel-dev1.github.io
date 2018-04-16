@@ -57,7 +57,7 @@ Pixie is the best interface to VR.
 # Features
 
 - 3D Position
-  > 3D position calculated using single camera images.
+  > 3D position calculated using an image of single camera.
   > The position is in the coordinate system with the camera device as the origin.
      
   ![Image](./img/3D_position.png)
@@ -205,7 +205,7 @@ Demo to interact with cube using ray casting. When you select the cube, it disap
 1. Creates a new scene and opens it.  
     ![](./img/demo2d_scene.png)
 
-1. Creates a empty object and rename it to 'EventSystem'.  
+1. Creates an empty object and rename it to 'EventSystem'.  
     ![](./img/hierarchy_demo2d_event_system.png)
 
 1. Adds DPInputModule to EventSystem object as a component.  
@@ -401,7 +401,7 @@ You could override the functions for the events you are interested in intercepti
 
 ## Input module states
 
-Input module has two states. The flow chart as below shows how these value is determined. 
+Input module has four states. The flow chart as below shows how these value is determined. 
 If the state is changed, the EventSystem call OnInputModuleStateChanged() method.
 You could override the function for intercepting [the event](#Pixie-pointer-events).
 
