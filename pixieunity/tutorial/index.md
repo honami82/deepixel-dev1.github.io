@@ -1,12 +1,3 @@
----
----
-
-@import "{{ site.theme }}";
-
-header {
-  display: none;
-}
-
 <!-- <link rel="stylesheet" type="text/css" href="markdownpad-github.css"> -->
 
 [Deepixel Inc.]: http://www.deepixel.xyz
