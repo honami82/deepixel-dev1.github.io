@@ -258,6 +258,7 @@ Demo to make cube disappear by touching cube with pixie without using ray castin
 
 1. Modifies the code in 'CubeTrigger.cs' as follows.  
     > Unity tutorial : [Colliders as Triggers]  
+
     ```csharp
     using UnityEngine;
 
