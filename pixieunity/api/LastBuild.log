@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="C:\SVN\PixieUnity\PixieUnityAPI\PixieUnityAPI.shfbproj" started="2018-04-16 오전 10:35:18">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.12.30.2" projectFile="C:\SVN\PixieUnity\PixieUnityAPI\PixieUnityAPI.shfbproj" started="2018-04-18 오후 5:57:14">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -15,6 +15,7 @@ Copyright &#169; 2006-2017, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 -------------------------------
 Clearing any prior web/markdown output...
+    Did not delete folder &#39;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\.svn&#39; as it contains read-only or hidden folders/files
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
@@ -23,26 +24,26 @@ Source: C:\SVN\PixieUnity\PixieCore\bin\Release\PixieCore.dll
 Source: C:\SVN\PixieUnity\PixieCore\bin\Release\PixieCore.xml
 
 Copying XML comments files
-    C:\SVN\PixieUnity\PixieCore\bin\Release\PixieCore.XML -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\PixieCore.XML
+    C:\SVN\PixieUnity\PixieCore\bin\Release\PixieCore.XML -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\PixieCore.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0278
+</plugIn>    Last step completed in 00:00:00.0160
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0045
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-빌드 시작: 2018-04-16 오전 10:35:19
+빌드 시작: 2018-04-18 오후 5:57:16
 &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,37)&quot;의 BeforeTargets 특성에 나열된 &quot;_ConvertPdbFiles&quot; 대상이 프로젝트에 없으며 무시됩니다.
 &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (34,70)&quot;의 AfterTargets 특성에 나열된 &quot;_CollectPdbFiles&quot; 대상이 프로젝트에 없으며 무시됩니다.
 &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,38)&quot;의 BeforeTargets 특성에 나열된 &quot;_CollectMdbFiles&quot; 대상이 프로젝트에 없으며 무시됩니다.
 &quot;C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportAfter\Xamarin.Common.targets (41,71)&quot;의 AfterTargets 특성에 나열된 &quot;_CopyMdbFiles&quot; 대상이 프로젝트에 없으며 무시됩니다.
-1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\GenerateRefInfo.proj&quot; 프로젝트(기본 대상)입니다.
+1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\GenerateRefInfo.proj&quot; 프로젝트(기본 대상)입니다.
 PrepareForBuild:
   &quot;obj\Debug\&quot; 디렉터리를 만들고 있습니다.
 GenerateRefInfo:
@@ -51,24 +52,24 @@ GenerateRefInfo:
   Portions Copyright ⓒ 2006-2016, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 2 namespaces, 12 types, and 70 members
+  Wrote information on 2 namespaces, 10 types, and 57 members
   &quot;reflection.org&quot;에서 &quot;reflection.all&quot;(으)로 파일을 복사하고 있습니다.
   XslTransform (v2017.12.30.2)
   Copyright ⓒ 2006-2017, Microsoft Corporation, All Rights Reserved.
   Portions Copyright ⓒ 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
-&quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\GenerateRefInfo.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
+&quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\GenerateRefInfo.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:01.10
-    Last step completed in 00:00:01.4842
+경과 시간: 00:00:00.66
+    Last step completed in 00:00:00.8475
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-빌드 시작: 2018-04-16 오전 10:35:21
-1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\TransformManifest.proj&quot; 프로젝트(기본 대상)입니다.
+빌드 시작: 2018-04-18 오후 5:57:16
+1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\TransformManifest.proj&quot; 프로젝트(기본 대상)입니다.
 TransformManifest:
   XslTransform (v2017.12.30.2)
   Copyright ⓒ 2006-2017, Microsoft Corporation, All Rights Reserved.
@@ -83,16 +84,16 @@ TransformManifest:
   Copyright ⓒ 2006-2017, Microsoft Corporation, All Rights Reserved.
   Portions Copyright ⓒ 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
-&quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\TransformManifest.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
+&quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\TransformManifest.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.58
-    Last step completed in 00:00:00.7758
+경과 시간: 00:00:00.49
+    Last step completed in 00:00:00.6512
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0165
+    Last step completed in 00:00:00.0105
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -102,176 +103,164 @@ Checking for code snippets files...
 Copying images and creating the media map file...
 Generating conceptual topic files
     Parsing topic file &#39;C:\SVN\PixieUnity\PixieUnityAPI\Content\Welcome.aml&#39;
-    C:\SVN\PixieUnity\PixieUnityAPI\Content\Welcome.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\ddueXml\fb62c042-1bda-4a7e-8353-b7be96d10ccf.xml
+    C:\SVN\PixieUnity\PixieUnityAPI\Content\Welcome.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\ddueXml\fb62c042-1bda-4a7e-8353-b7be96d10ccf.xml
     Parsing topic file &#39;C:\SVN\PixieUnity\PixieUnityAPI\Content\VersionHistory\VersionHistory.aml&#39;
-    C:\SVN\PixieUnity\PixieUnityAPI\Content\VersionHistory\VersionHistory.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\ddueXml\81287067-ce77-49e2-800a-9d793eff3564.xml
+    C:\SVN\PixieUnity\PixieUnityAPI\Content\VersionHistory\VersionHistory.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\ddueXml\81287067-ce77-49e2-800a-9d793eff3564.xml
     Parsing topic file &#39;C:\SVN\PixieUnity\PixieUnityAPI\Content\VersionHistory\v0.9.0.0.aml&#39;
-    C:\SVN\PixieUnity\PixieUnityAPI\Content\VersionHistory\v0.9.0.0.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\ddueXml\e794cfeb-aec8-4db0-be03-678abf63e05e.xml
+    C:\SVN\PixieUnity\PixieUnityAPI\Content\VersionHistory\v0.9.0.0.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\ddueXml\e794cfeb-aec8-4db0-be03-678abf63e05e.xml
     Parsing topic file &#39;C:\SVN\PixieUnity\PixieUnityAPI\Content\API Reference.aml&#39;
-    C:\SVN\PixieUnity\PixieUnityAPI\Content\API Reference.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\ddueXml\c76cf38e-2228-4417-9a81-bdc020178c6d.xml
-    Last step completed in 00:00:00.0994
+    C:\SVN\PixieUnity\PixieUnityAPI\Content\API Reference.aml -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\ddueXml\c76cf38e-2228-4417-9a81-bdc020178c6d.xml
+    Last step completed in 00:00:00.0626
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0375
+    Last step completed in 00:00:00.0260
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
-C:\SVN\PixieUnity\PixieUnityAPI\Content\test.md -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\Content\test.md
-C:\SVN\PixieUnity\PixieUnityAPI\icons\Help.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\Help.png
-    Last step completed in 00:00:00.0275
+C:\SVN\PixieUnity\PixieUnityAPI\icons\Help.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\Help.png
+    Last step completed in 00:00:00.0065
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0040
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-빌드 시작: 2018-04-16 오전 10:35:22
-1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\GenerateIntermediateTOC.proj&quot; 프로젝트(기본 대상)입니다.
+빌드 시작: 2018-04-18 오후 5:57:17
+1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\GenerateIntermediateTOC.proj&quot; 프로젝트(기본 대상)입니다.
 GenerateIntermediateTOC:
   XslTransform (v2017.12.30.2)
   Copyright ⓒ 2006-2017, Microsoft Corporation, All Rights Reserved.
   Portions Copyright ⓒ 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
-&quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\GenerateIntermediateTOC.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
+&quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\GenerateIntermediateTOC.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.11
+경과 시간: 00:00:00.10
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.3038
+    Last step completed in 00:00:00.2718
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.3373
+    Last step completed in 00:00:00.3003
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
-C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\sandcastle.config
+C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\sandcastle.config
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0090
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-빌드 시작: 2018-04-16 오전 10:35:22
-1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj&quot; 프로젝트(기본 대상)입니다.
+빌드 시작: 2018-04-18 오후 5:57:18
+1 노드의 &quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj&quot; 프로젝트(기본 대상)입니다.
 BuildTopics:
   BuildAssembler (v2017.12.30.2)
   Copyright ⓒ 2006-2017, Microsoft Corporation, All Rights Reserved.
   Portions Copyright ⓒ 2006-2016, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.DPPixieUnity.GetTexture] Unknown reference link target &#39;T:UnityEngine.Texture2D&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:dp.pixie.DPPixieUnity.Offset] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:dp.pixie.DPPixieUnity.Position] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMenuItem] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMenuItem] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMenuItem] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMenuItem] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBaseMenuItem.GetViewportPoint] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:dp.pixie.eventsystem.DPBaseMenuItem.IsSelectable] Missing &lt;returns&gt; documentation [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:dp.pixie.eventsystem.DPBaseMenuItem.ShouldBeSelected] Missing &lt;returns&gt; documentation [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMetaMenu] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMetaMenu] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMetaMenu] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseMetaMenu] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Ray&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerExit(UnityEngine.GameObject)] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Ray&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseRaycaster&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;P:UnityEngine.EventSystems.BaseRaycaster.eventCamera&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.OnDestroy&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.OnDestroy&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;P:UnityEngine.EventSystems.BaseRaycaster.eventCamera&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:dp.pixie.eventsystem.DPBaseRaycaster.eventCamera] Unknown reference link target &#39;T:UnityEngine.Camera&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseRaycaster&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [F:dp.pixie.eventsystem.DPGraphicRaycaster.blockingMask] Unknown reference link target &#39;T:UnityEngine.LayerMask&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPGraphicRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPGraphicRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.RaycastResult&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseInputModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.DeactivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.IsPointerOverGameObject(System.Int32)&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.Process&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.ShouldActivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.DeactivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.IsPointerOverGameObject(System.Int32)&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.Process&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.ShouldActivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:dp.pixie.eventsystem.DPInputModule.IsPointerOverGameObject(System.Int32)] Missing &lt;returns&gt; documentation [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [F:dp.pixie.eventsystem.DPInputModule.m_initialInputOffset] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseRaycaster&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [F:dp.pixie.eventsystem.DPPhysicsRaycaster.eventMask] Unknown reference link target &#39;T:UnityEngine.LayerMask&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPPhysicsRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPPhysicsRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.RaycastResult&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj]
-  Processed 96 topic(s)
-  86 warning(s)
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.DPPixieUnity.GetTexture] Unknown reference link target &#39;T:UnityEngine.Texture2D&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:dp.pixie.DPPixieUnity.Offset] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:dp.pixie.DPPixieUnity.Position] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePixiePointer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerEnter(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Ray&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerExit(UnityEngine.GameObject)] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPBasePixiePointer.OnPointerHover(UnityEngine.GameObject,UnityEngine.Vector3,UnityEngine.Ray,System.Boolean)] Unknown reference link target &#39;T:UnityEngine.Ray&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBasePointer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseRaycaster&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;P:UnityEngine.EventSystems.BaseRaycaster.eventCamera&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.OnDestroy&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.OnDestroy&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:dp.pixie.eventsystem.DPBaseRaycaster] Unknown reference link target &#39;P:UnityEngine.EventSystems.BaseRaycaster.eventCamera&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:dp.pixie.eventsystem.DPBaseRaycaster.eventCamera] Unknown reference link target &#39;T:UnityEngine.Camera&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPBaseReticlePointer] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseRaycaster&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPGraphicRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:dp.pixie.eventsystem.DPGraphicRaycaster.blockingMask] Unknown reference link target &#39;T:UnityEngine.LayerMask&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPGraphicRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPGraphicRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.RaycastResult&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseInputModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.DeactivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.IsPointerOverGameObject(System.Int32)&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.Process&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.ShouldActivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.DeactivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.IsPointerOverGameObject(System.Int32)&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.Process&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseInputModule.ShouldActivateModule&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPInputModule] Unknown reference link target &#39;M:UnityEngine.EventSystems.UIBehaviour.Start&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:dp.pixie.eventsystem.DPInputModule.IsPointerOverGameObject(System.Int32)] Missing &lt;returns&gt; documentation [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:dp.pixie.eventsystem.DPInputModule.m_initialInputOffset] Unknown reference link target &#39;T:UnityEngine.Vector3&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.Object&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.Component&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.MonoBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.UIBehaviour&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;T:UnityEngine.EventSystems.BaseRaycaster&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:dp.pixie.eventsystem.DPPhysicsRaycaster] Unknown reference link target &#39;M:UnityEngine.EventSystems.BaseRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [F:dp.pixie.eventsystem.DPPhysicsRaycaster.eventMask] Unknown reference link target &#39;T:UnityEngine.LayerMask&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPPhysicsRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.PointerEventData&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:dp.pixie.eventsystem.DPPhysicsRaycaster.Raycast(UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List{UnityEngine.EventSystems.RaycastResult})] Unknown reference link target &#39;T:UnityEngine.EventSystems.RaycastResult&#39;. [C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj]
+  Processed 79 topic(s)
+  75 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-&quot;C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\BuildTopics.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
+&quot;C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\BuildTopics.proj&quot; 프로젝트를 빌드했습니다(기본 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:10.01
-    Last step completed in 00:00:10.2076
+경과 시간: 00:00:10.08
+    Last step completed in 00:00:10.2739
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0035
+    Last step completed in 00:00:00.0045
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -282,119 +271,119 @@ E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
-Processing website files in C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website
-Processed 96 HTML files
+Processing website files in C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website
+Processed 79 HTML files
 Sorting keywords and generating See Also indices
-Saving website keyword index to C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\WebKI.xml
-Saving website table of contents to C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\WebTOC.xml
-    Last step completed in 00:00:00.4692
+Saving website keyword index to C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\WebKI.xml
+Saving website table of contents to C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\WebTOC.xml
+    Last step completed in 00:00:00.3994
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\AlertCaution.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\AlertNote.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\AlertSecurity.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\CFW.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\CodeExample.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\favicon.ico
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\privstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protoperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\protstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubclass.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubdelegate.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubenumeration.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubevent.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubextension.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubfield.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubinterface.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubmethod.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\puboperator.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubproperty.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\pubstructure.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\SectionCollapsed.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\SectionExpanded.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\slMobile.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\static.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\xna.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\scripts\branding.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-cs-CZ.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-de-DE.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-en-US.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-es-ES.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-fr-FR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-Help1.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-HelpViewer.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-it-IT.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-ja-JP.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-ko-KR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-pl-PL.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-pt-BR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-ru-RU.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-tr-TR.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-Website.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-zh-CN.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding-zh-TW.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\styles\branding.css
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\index.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\search.html
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\SearchHelp.aspx
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\SearchHelp.inc.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\SearchHelp.php
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\Web.Config
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\html\GeneralError.htm
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\html\PageNotFound.htm
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\Search.png
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\TocClose.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\TocCollapsed.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\TocExpanded.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\icons\TocOpen.gif
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\scripts\branding-Website.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\scripts\clipboard.min.js
-C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.9963
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\SVN\PixieUnity\PixieUnityAPI\ApiBranch\Working\Output\Website\scripts\jquery-1.11.0.min.js
+    Last step completed in 00:00:00.5861
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.4004
+</plugIn>    Last step completed in 00:00:00.3754
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 231 files for the website content
-    Last step completed in 00:00:01.2000
+Copied 209 files for the website content
+    Last step completed in 00:00:01.4001
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.2252
+    Last step completed in 00:00:00.2783
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2018-04-16 오전 10:35:36.  Total time: 00:00:18.0456
+Build completed successfully at 2018-04-18 오후 5:57:31.  Total time: 00:00:16.6868
 
 </buildStep>
 </shfbBuild>
