@@ -22,7 +22,7 @@
         - [Runs in the editor](#runs-in-the-editor)
         - [Runs on an android device.](#runs-on-an-android-device)
     - [Makes 2D pixie demo using ray casting](#makes-2d-pixie-demo-using-ray-casting)
-    - [Makes 3D pixie demo](#makes-3d-pixemo)
+    - [Makes 3D pixie demo](#makes-3d-pixie-demo)
     - [Makes camera preview and meta menu demo](#makes-camera-preview-and-meta-menu-demo)
 - [Reference](#reference)
     - [Pixie properties](#pixie-properties)
